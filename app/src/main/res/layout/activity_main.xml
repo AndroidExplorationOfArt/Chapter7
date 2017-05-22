@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kjn.chapter7.MainActivity">
+
+    <Button
+        android:id="@+id/textBtn"
+        android:onClick="toIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View 动画 ListView"/>
+
+    <Button
+        android:onClick="toIntent"
+        android:id="@+id/textBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义 View 动画"/>
+
+    <Button
+        android:onClick="toIntent"
+        android:text="属性动画"
+        android:id="@+id/textBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="toIntent"
+        android:text="帧动画"
+        android:id="@+id/textBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
